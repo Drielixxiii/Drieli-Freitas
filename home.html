@@ -6,174 +6,312 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" type="image/svg" sizes="32x32" href="img/FAVICON.svg" />
-    <title>Drieli Freitas</title>
+    <title>Drieli Freitas • Desenvolvedora front-end</title>
   </head>
   <body>
+
     <header>
-      <nav aria-label="Primária" class="nav-flex">
-        <img src="img/MARCA.svg" alt="Drieli Freitas" />
-        <ul class="menu-items">
-          <li><a href="#">Experiência</a></li>
-          <li><a href="#">Projetos</a></li>
-          <li><a href="#">Formação</a></li>
-          <li><a href="#">Contato</a></li>
+      <nav aria-label="Primária" class="header">
+        <a href="home.html"><img src="img/MARCA.svg" alt="Drieli Freitas" /></a>
+        <ul class="menu-header">
+          <li><a href="#experiencia">Experiência</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#formacao">Formação</a></li>
+          <li><a href="#contato">Contato</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
       <article class="conteudo intro" aria-labelledby="label-intro">
-        <div class="intro-cover">
-          <img
-            class="foto-drieli"
-            src="img/FOTO DRIELI.png"
-            alt="foto Drieli"
-          />
-        </div>
+        <img class="foto-drieli" src="img/FOTO DRIELI.png" alt="foto Drieli" />
         <div class="intro-resume">
-          <h1 id="label-intro">Desenvolvedora front-end & UX/UI designer</h1>
+          <h1 id="label-intro">
+            Desenvolvedora
+            <br />
+            Front End &
+            <br />
+            UX/UI designer.
+          </h1>
           <p>Rio de Janeiro, Brasil.</p>
         </div>
       </article>
+    </main>
 
-      <article class="conteudo experiencia" aria-labelledby="label-experiencia">
-        <h1 id="label-experiencia">experiências</h1>
-        <div class="experiencia-resume">
+    <section
+      id="experiencia"
+      class="conteudo experiencia"
+      aria-labelledby="label-experiencia"
+    >
+      <h1 id="label-experiencia">experiências</h1>
+      <div class="empresa-resume">
+        <p class="empresa-resume-principal">
+          Experiência como
+          <strong>desenvolvedora front-end</strong>
+          , inicialmente como estagiária aprendiz em
+          <strong>back-end</strong>
+          nas linguagens
+          <strong>PHP</strong>
+          e
+          <strong>JavaScript</strong>
+          . Logo, posteriormente ocupando a vaga de desenvolvedora e
+          <strong>web designer</strong>
+          usando as ferramentas
+          <strong>HTML</strong>
+          ,
+          <strong>CSS</strong>
+          ,
+          <strong>JavaScript</strong>
+          e
+          <strong>Bootstrap</strong>
+          .
+        </p>
+
+        <div class="empresa">
+          <span class="empresa-ano">2021 - 22</span>
+          <h3 class="empresa-titulo">
+            M. S. Bastos • Social media & Web design
+          </h3>
+          <span></span>
           <p>
-            Experiência como
-            <span>desenvolvedora front-end</span>
-            , inicialmente como estagiária
-            <span>back-end</span>
-            nas linguagens
-            <span>PHP</span>
+            <strong>Web Design</strong>
+            e produção de conteúdo para redes. Produção de conteúdo para
+            <strong>instagram</strong>
             e
-            <span>JavaScript</span>
-            . Logo, posteriormente ocupando a vaga de desenvolvedora e
-            <span>web designer</span>
-            usando as ferramentas
-            <span>HTML</span>
-            ,
-            <span>CSS</span>
-            ,
-            <span>JavaScript</span>
-            e
-            <span>Bootstrap</span>
+            <strong>facebook</strong>
+            , manutenção de
+            <strong>site institucional</strong>
+            feito em
+            <strong>Wordpress</strong>
             .
           </p>
-          <ul>
-            <h4>M.S.Bastos</h4>
-            <li>
-              <p>
-                <span>Web Design</span>
-                e produção de conteúdo para redes. Produção de conteúdo para
-                <span>instagram</span>
-                e
-                <span>facebook</span>
-                , produção e manutenção de
-                <span>site institucional</span>
-                .
-              </p>
-              <div class="categories">
-                <p>Wordpress</p>
-                <p>Photoshop</p>
-                <p>Illustrator</p>
-                <p>Figma</p>
-              </div>
-            </li>
-            <h4>NTL - Nova Tecnologia</h4>
-            <li>
-              <p>
-                Desenvolvimento de
-                <span>site instituicional</span>
-                e protótipos de
-                <span>landing pages</span>
-                e
-                <span>e-commerces.</span>
-              </p>
-              <div class="categories">
-                <p>HTML</p>
-                <p>CSS</p>
-                <p>JavaScript</p>
-                <p>Bootstrap</p>
-                <p>Figma</p>
-              </div>
-            </li>
+          <ul class="habilidades">
+            <li>Wordpress</li>
+            <li>Illustrator</li>
+            <li>Photoshop</li>
+            <li>Figma</li>
           </ul>
         </div>
-      </article>
 
-      <article class="conteudo projetos" aria-labelledby="label-projetos">
-        <ul class="projetos-grid">
-          <li>
-            <a href="https://drielixxiii.github.io/curriculum-master/home.html">
-              <p class="title">SITE CÚRRICULO 1</p>
-              <p class="name">Drieli De Freitas</p>
-              <p class="situation">Produzindo</p>
-            </a>
-          </li>
-
-          <li>
-            <a href="https://www.ntl.com.br/">
-              <p class="title">SITE INSTITUCIONAL</p>
-              <p class="name">ntl.com.br</p>
-              <p class="situation">Concluído</p>
-            </a>
-          </li>
-
-          <li>
-            <a href="https://drielixxiii.github.io/Siterh-main/home.html">
-              <p class="title">LANDING PAGE</p>
-              <p class="name">Prototótipo site de RH</p>
-              <p class="situation">Concluído</p>
-            </a>
-          </li>
-
-          <li>
-            <a
-              href="https://www.behance.net/gallery/143672585/Fernanda-Maestri-Identidade-Visual"
-            >
-              <p class="title">IDENTIDADE VISUAL</p>
-              <p class="name">Fernanda Maestri</p>
-              <p class="situation">Concluído</p>
-            </a>
-          </li>
-        </ul>
-        <h1 id="label-projetos">Projetos & mais</h1>
-      </article>
-
-      <article class="conteudo formacao" aria-labelledby="label-formacao">
-        <h1 id="label-formacao">formaçao</h1>
-        <div class="">
+        <div class="empresa">
+          <span class="empresa-ano">2020 - 21</span>
+          <h3 class="empresa-titulo">
+            NTL - Nova Tecnologia • Front End Jovem Aprendiz
+          </h3>
+          <span></span>
           <p>
-            Estudante de Análise e Desenvolvimento de sistemas no 3º período,
-            formada em curso profissionalizante de design gráfico e web design,
-            atualmente estudante de UX / UI Design, Web design, React e + na
-            Origamid.
+            Desenvolvimento de
+            <strong>site instituicional</strong>
+            e protótipos de
+            <strong>landing pages</strong>
+            e
+            <strong>e-commerces.</strong>
           </p>
-          <ul class="formacao-flex">
-            <li>
-              <a href="/" >
-                <p class="title">PROFISSIONAL</p>
-                <p class="name">Web design, UX / UI, JavaScript, React.</p>
-                <p class="situation">Origamid<br>2022 - Cursando</p>
-              </a>
-            </li>
-            <li>
-              <a href="/" >
-                <p class="title">TECNÓLOGO</p>
-                <p class="name">Análise e Desenvolvimento de Sistemas</p>
-                <p class="situation">Unicarioca<br>2019 -2023</p>
-              </a>
-            </li><li>
-              <a href="/" >
-                <p class="title">PROFISSIONAL</p>
-                <p class="name">Análise e Desenvolvimento de Sistemas</p>
-                <p class="situation">Unicarioca<br>2019 -2023</p>
-              </a>
-            </li>
+          <ul class="habilidades">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Bootstrap</li>
+            <li>Figma</li>
           </ul>
         </div>
+
+        <div class="empresa">
+          <span class="empresa-ano">2020</span>
+          <h3 class="empresa-titulo">Blaze • Social media voluntária</h3>
+          <span></span>
+          <p>
+            Postagens para a página oficial no
+            <strong>instagram</strong>
+            do time de futebol americano Blaze, de maneira voluntária.
+          </p>
+
+          <ul class="habilidades">
+            <li>Photoshop</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="projetos"
+      class="conteudo projetos"
+      aria-labelledby="label-projetos"
+    >
+      <h1 id="label-projetos">Projetos & mais</h1>
+      <ul class="projetos-grid">
+        <li>
+          <a
+            target="_blank"
+            href="https://drielixxiii.github.io/curriculum-master/home.html"
+          >
+            <p class="title">1º SITE CÚRRICULO</p>
+            <p class="name">Drieli De Freitas</p>
+            <p class="situation">Produzindo</p>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="https://www.ntl.com.br/">
+            <p class="title">SITE INSTITUCIONAL</p>
+            <p class="name">ntl.com.br</p>
+            <p class="situation">Concluído</p>
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            href="https://drielixxiii.github.io/Siterh-main/home.html"
+          >
+            <p class="title">LANDING PAGE</p>
+            <p class="name">Prototótipo site de RH</p>
+            <p class="situation">Concluído</p>
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            href="https://www.behance.net/gallery/143672585/Fernanda-Maestri-Identidade-Visual"
+          >
+            <p class="title">IDENTIDADE VISUAL</p>
+            <p class="name">Fernanda Maestri</p>
+            <p class="situation">Concluído</p>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <div class="back">
+      <section
+        id="formacao"
+        class="conteudo formacao"
+        aria-labelledby="label-formacao"
+      >
+        <h1 id="label-formacao">formação</h1>
+        <div class="formacao-resume">
+          <p class="formacao-resume-principal">
+            Estudante de
+            <strong>Análise e Desenvolvimento de sistemas</strong>
+            no 3º período, formada em curso profissionalizante de
+            <strong>design gráfico</strong>
+            e
+            <strong>web design</strong>, atualmente estudante de
+            <strong>UX / UI Design</strong>, Web design,
+            <strong>JavaScript</strong>
+            na
+            <strong>Origamid</strong>.
+          </p>
+
+
+          <div class="formacao-flex">
+          <div class="estudo">
+            <p class="titulo-formacao">profissional</p>
+            <p class="name-formacao">Web design, UX / UI, JavaScript, React.</p>
+            <p class="situacao-formacao">Origamid<br>2022 - Cursando</p>
+          </div>
+
+          <div class="estudo">
+            <p class="titulo-formacao">tecnólogo</p>
+            <p class="name-formacao">Análise e Desenvolvimento de Sistemas</p>
+            <p class="situacao-formacao">Unicarioca<br>2019 - 22</p>
+          </div>
+
+          <div class="estudo">
+            <p class="titulo-formacao">profissional</p>
+            <p class="name-formacao">Design gráfico e web</p>
+            <p class="situacao-formacao">Zion<br>2016 - 18</p>
+          </div>
+        </div>
+
+          <ul class="formacao-flex">
+            <!-- <li>
+              <a href="/">
+                <p class="title-formacao">PROFISSIONAL</p>
+                <p class="name-formacao">
+                  Web design, UX / UI, JavaScript, React.
+                </p>
+                <p class="situation-formacao">
+                  Origamid
+                  <br />
+                  ⠀2022 - Cursando
+                </p>
+              </a>
+            </li> -->
+
+            <!-- <li>
+              <a href="/">
+                <p class="title-formacao">TECNÓLOGO</p>
+                <p class="name-formacao">
+                  Análise e Desenvolvimento de Sistemas
+                </p>
+                <p class="situation-formacao">
+                  Unicarioca
+                  <br />
+                  ⠀2019 -2023
+                </p>
+              </a>
+            </li> -->
+
+            <!-- <li>
+              <a href="/">
+                <p class="title-formacao">PROFISSIONAL</p>
+                <p class="name-formacao">Design gráfico e web</p>
+                <p class="situation-formacao">
+                  Zion
+                  <br />
+                  ⠀2016 - 2018
+                </p>
+              </a>
+            </li> -->
+          </ul>
+
+          <div class="idioms">
+            <p class="title">Idiomas</p>
+            <p>
+              <strong>Inglês</strong>
+              / Fluente
+            </p>
+            <p>
+              <strong>Libras</strong>
+              / Iniciante
+            </p>
+          </div>
+        </div>
+
+        </div>
+      </section>
+    </div>
+
+    <article id="contato" aria-labelledby="label-contato">
+        <div class="contato">
+          <div class="contatos-rapidos">
+            <h2 id="label-contato">
+              Estou disponível para novos desafios,
+              <br />
+              vamos conversar?
+            </h2>
+            <a target="_blank" href="mailto:drieli.freitas286@gmail.com">
+              drieli.freitas286@gmail.com
+            </a>
+            <a target="_blank" href="https://wa.me/5521986884256">+55 21 98688-4256</a>
+          </div>
+          <div class="links-flex">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/drieli-freitas-380428168/"
+            >
+              linkedin
+            </a>
+            <a target="_blank" href="https://github.com/Drielixxiii">github</a>
+            <a target="_blank" href="https://www.behance.net/drielifreic217">
+              behance
+            </a>
+            
+          </div>
+        </div>
       </article>
-    </main>
+
+    <footer>
+      <p>Drieli de Freitas. Alguns direitos reservados</p>
+    </footer>
   </body>
 </html>
