@@ -72,8 +72,8 @@ ul {
 
 .intro img {
   display: block;
-  max-width: 100%;
-  object-fit: cover;
+  max-width: 100%; 
+  height: auto;
 }
 
 .intro-resume h1 {
